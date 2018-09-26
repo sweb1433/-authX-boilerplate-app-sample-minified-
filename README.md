@@ -25,7 +25,7 @@
             s.async = true; 
             localStorage.setItem("apto","YOUR_REDIRECT_URL");
             localStorage.setItem("apid","YOUR_UNIQUE_APPLICATION_ID");
-            s.src = 'https://firebasestorage.googleapis.com/v0/b/authx-2d62f.appspot.com/o/app2.js?alt=media&token=12557096-4900-48f6-a759-529e09aba6c7';
+            s.src = 'https://firebasestorage.googleapis.com/v0/b/authx-2d62f.appspot.com/o/app2.js?alt=media&token=7f783bdf-319b-411e-a0ae-10fbb76fe7ac';
             document.head.appendChild(s);
         })();  
     
