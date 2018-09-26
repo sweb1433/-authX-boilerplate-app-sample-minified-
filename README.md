@@ -13,7 +13,7 @@
 
 ## User guide
 
- ###  -Step 1. Create div tag with id=buttons in your landing page.
+ ###  -Step 1. Create div tag with id="buttons" in your landing page.
       
 ### -step 2. Paste following script just before body ending tag.
 
