@@ -17,27 +17,25 @@
       
 ### -step 2. Paste following script just before body ending tag.
 
+    
+
     <script type="text/javascript">
-    (function(APTO, APID){
-      var l = document.createElement("link"); 
-      l.type = "text/css";
-      l.rel = "stylesheet"; 
-      l.async = true; 
-      l.href =     'https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css';
-      document.head.appendChild(l);
-      var button = document.getElementById('buttons');
-      button.className="column";
-      button.style="flex-direction: column; margin-left: 684px;";
-    
-      var s = document.createElement("script"); 
-      s.type = "text/javascript"; 
-      s.async = true; 
-      localStorage.setItem("apto","YOUR_REDIRECT_URL");
-      localStorage.setItem("apid","YOUR_APPLICATION_ID");
-      s.src =      'https://firebasestorage.googleapis.com/v0/b/authx-2d62f.appspot.    com/o/app2.js?alt=media&token=7f783bdf-319b-411e-a0ae-10fbb76fe7ac';
-      document.head.appendChild(s);
-    
-    })();  
+        (function(){
+          var button = document.getElementById('buttons');
+          button.className="column";
+          button.style="flex-direction: column; margin-left: 25%";
+        
+          var s = document.createElement("script"); 
+          s.type = "text/javascript"; 
+          s.async = true; 
+          localStorage.setItem("apto","YOUR_REDIRECT_URL");
+          localStorage.setItem("apid","UNIQUE_APP_ID");
+        
+           s.src = 'https://firebasestorage.googleapis.com/v0/b/cdn-widget.appspot.com/o/app2.js?alt=media&     token=f3609d25-d3e3-4744-b546-70ebf448d0f4';
+        
+          document.head.appendChild(s);
+        
+        })();  
 
     </script>
 
